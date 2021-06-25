@@ -2,12 +2,12 @@ gem5 Simulator System.  http://gem5.org
 gem5 is copyrighted software; use the --copyright option for details.
 
 gem5 compiled Jun 18 2021 16:12:39
-gem5 started Jun 18 2021 23:23:45
-gem5 executing on mibudin-ubuntu-vb, pid 3751
-command line: /home/mibudin/Workspaces/gem5/./build/X86/gem5.opt /home/mibudin/Workspaces/gem5/configs/example/se.py -c /home/mibudin/Workspaces/ncu_computer_org_project_2/benchmark/./quicksort --cpu-type=TimingSimpleCPU --caches --l2cache --l3cache --l3_assoc=2 --l1i_size=32kB --l1d_size=32kB --l2_size=128kB --l3_size=1MB --mem-type=NVMainMemory --nvmain-config=/home/mibudin/Workspaces/NVmain/../NVmain/Config/PCM_ISSCC_2012_4GB.config
+gem5 started Jun 20 2021 05:19:10
+gem5 executing on mibudin-ubuntu-vb, pid 2680
+command line: /home/mibudin/Workspaces/gem5/build/X86/gem5.opt /home/mibudin/Workspaces/gem5/configs/example/se.py -c /home/mibudin/Workspaces/ncu_computer_org_project_2/benchmark/quicksort --cpu-type=TimingSimpleCPU --caches --l2cache --l3cache --l3_assoc=2 --l1i_size=32kB --l1d_size=32kB --l2_size=128kB --l3_size=1MB --mem-type=NVMainMemory --nvmain-config=/home/mibudin/Workspaces/NVmain/Config/PCM_ISSCC_2012_4GB.config
 
 Global frequency set at 1000000000000 ticks per second
-NVMainControl: Reading NVMain config file: /home/mibudin/Workspaces/NVmain/../NVmain/Config/PCM_ISSCC_2012_4GB.config.
+NVMainControl: Reading NVMain config file: /home/mibudin/Workspaces/NVmain/Config/PCM_ISSCC_2012_4GB.config.
 NVMain: GlobalEventQueue: Added a memory subsystem running at 400MHz. My frequency is 2000MHz.
 Config: Warning: Key EIDD0 is not set. Using '85' as the default. Please configure this value if this is wrong.
 Config: Warning: Key EIDD1 is not set. Using '54' as the default. Please configure this value if this is wrong.
