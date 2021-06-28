@@ -9,32 +9,36 @@ Modified segmentations would be packed in `TODO - start` and `TODO - end`.
 ### Modified
 - `BaseCPU.py`
     - Origin: `<GEM5>/src/cpu/BaseCPU.py`
-    - Desc:
+    - Descriptions:
         - Enable L3 cache.
 - `CacheConfig.py`
     - Origin: `<GEM5>/config/common/CacheConfig.py`
-    - Desc:
+    - Descriptions:
         - Enable L3 cache.
         - Handle newly added command options.
 - `Caches.py`
     - Origin: `<GEM5>/config/common/Caches.py`
-    - Desc:
+    - Descriptions:
         - Enable L3 cache.
 - `Options.py`
     - Origin: `<GEM5>/config/common/Options.py`
-    - Desc:
+    - Descriptions:
         - `--l3cache`: Enable L3 cache.
-        - `--l3_falru`: Let L3 cache use fully associative cache with LRU replacement policy (FALRU).
         - `--l3_rp`: Let L3 cache use a specific replacement policy.
 - `XBar.py`
     - Origin: `<GEM5>/src/mem/XBar.py`
-    - Desc:
+    - Descriptionsription:
         - Enable L3 cache.
-- `base_sebase_set_assoc.cc`
+- `base_set_assoc.cc`
     - Origin: `<GEM5>/src/mem/cache/tags/base_set_assoc.cc`
-    - Desc:
+    - Descriptions:
         - The parameter `assoc` can be automatically reset to the number of all blocks
             if `assoc` is equal to zero.
+- `base.cc`
+    - Origin: `<GEM5>/src/mem/cache/base.cc`
+    - Descriptions:
+        - Implement the write-through feature.
+
 
 ## NVmain
 
