@@ -4,11 +4,11 @@ sim_seconds                                  0.007797                       # Nu
 sim_ticks                                  7796809000                       # Number of ticks simulated
 final_tick                                 7796809000                       # Number of ticks from beginning of simulation (restored from checkpoints and never reset)
 sim_freq                                 1000000000000                       # Frequency of simulated ticks
-host_inst_rate                                 442453                       # Simulator instruction rate (inst/s)
-host_op_rate                                   744130                       # Simulator op (including micro ops) rate (op/s)
-host_tick_rate                              873748963                       # Simulator tick rate (ticks/s)
-host_mem_usage                                 658708                       # Number of bytes of host memory used
-host_seconds                                     8.92                       # Real time elapsed on the host
+host_inst_rate                                 440638                       # Simulator instruction rate (inst/s)
+host_op_rate                                   741078                       # Simulator op (including micro ops) rate (op/s)
+host_tick_rate                              870165538                       # Simulator tick rate (ticks/s)
+host_mem_usage                                 659340                       # Number of bytes of host memory used
+host_seconds                                     8.96                       # Real time elapsed on the host
 sim_insts                                     3948160                       # Number of instructions simulated
 sim_ops                                       6640150                       # Number of ops (including micro ops) simulated
 system.voltage_domain.voltage                       1                       # Voltage in Volts
@@ -506,17 +506,8 @@ system.l3.tags.occ_task_id_blocks::1024          1209                       # Oc
 system.l3.tags.age_task_id_blocks_1024::0           52                       # Occupied blocks per task id
 system.l3.tags.age_task_id_blocks_1024::3         1157                       # Occupied blocks per task id
 system.l3.tags.occ_task_id_percent::1024     0.073792                       # Percentage of cache occupancy per task id
-system.l3.tags.tag_accesses                      1209                       # Number of tag accesses
-system.l3.tags.data_accesses                     1209                       # Number of data accesses
-system.l3.tags.falru_hits::128kB                    0                       # Hits in a 128kB cache
-system.l3.tags.falru_hits::256kB                    0                       # Hits in a 256kB cache
-system.l3.tags.falru_hits::512kB                    0                       # Hits in a 512kB cache
-system.l3.tags.falru_hits::1MB                      0                       # Hits in a 1MB cache
-system.l3.tags.falru_misses::128kB               1209                       # Misses in a 128kB cache
-system.l3.tags.falru_misses::256kB               1209                       # Misses in a 256kB cache
-system.l3.tags.falru_misses::512kB               1209                       # Misses in a 512kB cache
-system.l3.tags.falru_misses::1MB                 1209                       # Misses in a 1MB cache
-system.l3.tags.falru_accesses                    1209                       # The number of accesses to the FA LRU cache.
+system.l3.tags.tag_accesses                  19809465                       # Number of tag accesses
+system.l3.tags.data_accesses                 19809465                       # Number of data accesses
 system.l3.pwrStateResidencyTicks::UNDEFINED   7796809000                       # Cumulative time (in ticks) in various power states
 system.l3.ReadExReq_misses::cpu.data              751                       # number of ReadExReq misses
 system.l3.ReadExReq_misses::total                 751                       # number of ReadExReq misses

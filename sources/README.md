@@ -30,7 +30,7 @@ Modified segmentations would be packed in `TODO - start` and `TODO - end`.
     - Origin: `<GEM5>/src/mem/XBar.py`
     - Desc:
         - Enable L3 cache.
-- `base_set_assoc.cc`
+- `base_sebase_set_assoc.cc`
     - Origin: `<GEM5>/src/mem/cache/tags/base_set_assoc.cc`
     - Desc:
         - The parameter `assoc` can be automatically reset to the number of all blocks

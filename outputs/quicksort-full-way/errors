@@ -1,4 +1,4 @@
-0: system.remote_gdb: listening for remote gdb on port 7001
+0: system.remote_gdb: listening for remote gdb on port 7000
 info: Entering event queue @ 0.  Starting simulation...
 warn: readlink() called on '/proc/self/exe' may yield unexpected results in various settings.
       Returning '/home/mibudin/Workspaces/ncu_computer_org_project_2/benchmark/quicksort'
