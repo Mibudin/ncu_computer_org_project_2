@@ -1,9 +1,9 @@
 gem5 Simulator System.  http://gem5.org
 gem5 is copyrighted software; use the --copyright option for details.
 
-gem5 compiled Jun 28 2021 14:50:04
-gem5 started Jun 28 2021 15:27:58
-gem5 executing on mibudin-ubuntu-vb, pid 3075
+gem5 compiled Jun 29 2021 02:19:27
+gem5 started Jun 29 2021 03:18:06
+gem5 executing on mibudin-ubuntu-vb, pid 9218
 command line: /home/mibudin/Workspaces/gem5/build/X86/gem5.opt /home/mibudin/Workspaces/gem5/configs/example/se.py -c /home/mibudin/Workspaces/ncu_computer_org_project_2/benchmark/quicksort --cpu-type=TimingSimpleCPU --caches --l2cache --l3cache --l3_assoc=2 --l1i_size=32kB --l1d_size=32kB --l2_size=128kB --l3_size=1MB --mem-type=NVMainMemory --nvmain-config=/home/mibudin/Workspaces/NVmain/Config/PCM_ISSCC_2012_4GB.config
 
 Global frequency set at 1000000000000 ticks per second
