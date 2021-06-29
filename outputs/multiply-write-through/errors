@@ -266,3 +266,32 @@ info: Increasing stack size by one page.
 info: Increasing stack size by one page.
 info: Increasing stack size by one page.
 info: Increasing stack size by one page.
+src/central_freelist.cc:333] tcmalloc: allocation failed 8192 
+Traceback (most recent call last):
+  File "<string>", line 1, in <module>
+  File "/home/mibudin/Workspaces/gem5/src/python/m5/main.py", line 435, in main
+    exec filecode in scope
+  File "/home/mibudin/Workspaces/gem5/configs/example/se.py", line 286, in <module>
+    Simulation.run(options, root, system, FutureClass)
+  File "/home/mibudin/Workspaces/gem5/configs/common/Simulation.py", line 712, in run
+    exit_event = benchCheckpoints(options, maxtick, cptdir)
+  File "/home/mibudin/Workspaces/gem5/configs/common/Simulation.py", line 268, in benchCheckpoints
+    exit_event = m5.simulate(maxtick - m5.curTick())
+  File "/home/mibudin/Workspaces/gem5/src/python/m5/simulate.py", line 176, in simulate
+    return _m5.event.simulate(*args, **kwargs)
+MemoryError: std::bad_alloc
+src/central_freelist.cc:333] tcmalloc: allocation failed 8192 
+Error in atexit._run_exitfuncs:
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/atexit.py", line 24, in _run_exitfuncs
+    func(*targs, **kargs)
+  File "/home/mibudin/Workspaces/gem5/src/python/m5/stats/__init__.py", line 203, in dump
+    _m5.stats.processDumpQueue()
+MemoryError: std::bad_alloc
+Error in sys.exitfunc:
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/atexit.py", line 24, in _run_exitfuncs
+    func(*targs, **kargs)
+  File "/home/mibudin/Workspaces/gem5/src/python/m5/stats/__init__.py", line 203, in dump
+    _m5.stats.processDumpQueue()
+MemoryError: std::bad_alloc
