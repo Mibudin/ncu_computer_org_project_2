@@ -5,22 +5,6 @@
 
 
 
-## TODO
-- [ ] Write through
-- [ ] Demo standard operating procedure
-    - [ ] 2
-    - [ ] 3
-    - [ ] 4
-- [ ] Copy modified files
-- [ ] Set Github repo public
-- [x] Add RRIP shell script
-- [x] Make outpus directories.
-- [ ] Learn Vim
-- [ ] Descriptions
-- [x] Project file structure desc
-
-
-
 ## Files
 - `benchmark/`: The benchmark program files.
     - `multiply.c`, `multiply`: The program for the task 5.
